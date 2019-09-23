@@ -114,4 +114,11 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectByParentId" resultMap="BaseResultMap" parameterType="integer" >
+    select
+    <include refid="Base_Column_List" />
+    from neuedu_category
+    where parent_id = #{pid,jdbcType=INTEGER}
+  </select>
+
 </mapper>

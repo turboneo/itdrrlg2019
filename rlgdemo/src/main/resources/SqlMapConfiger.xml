@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--&lt;!&ndash;设置别名&ndash;&gt;-->
+    <!--<typeAliases>-->
+        <!--<package name="com.itdr.pojo"/>-->
+    <!--</typeAliases>-->
+
+    <!--&lt;!&ndash;<mappers>&ndash;&gt;-->
+        <!--&lt;!&ndash;<package name="com/itdr/dao"></package>&ndash;&gt;-->
+    <!--&lt;!&ndash;</mappers>&ndash;&gt;-->
+
+    <!--<mappers>-->
+        <!--<mapper resource="com/itdr/dao/UserMapper.xml"/>-->
+    <!--</mappers>-->
+</configuration>
